@@ -1,8 +1,13 @@
 {
-    "name": "organic-green",
-    "displayName": "organic-green",
+    "name": "organic-green-theme",
+    "displayName": "organic-green-theme",
     "description": "Low-contract green color theme.",
     "version": "0.0.1",
+    "publisher": "kostafey",
+    "repository" : { 
+        "type" : "git",
+        "url" : "https://github.com/kostafey/organic-green-theme-vscode"
+    },
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -12,7 +17,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "organic-green",
+                "label": "organic-green-theme",
                 "uiTheme": "vs",
                 "path": "./themes/organic-green-color-theme.json"
             }
