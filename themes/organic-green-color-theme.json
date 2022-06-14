@@ -338,9 +338,25 @@
 	  {
 		"scope": "punctuation.definition.list.begin.markdown",
 		"settings": {
-		  "foreground": "#E36209"
+		  "foreground": "#0066CC"
 		}
 	  },
+	  {
+		"scope": ["punctuation.definition.heading.markdown",
+				  "heading.1.markdown",
+				  "entity.name.section.markdown",
+				  "heading.1.markdown"],
+		"settings": {
+		  "foreground": "#6F42C1"
+		}
+	  },
+	  {
+		"scope": ["markup.list.numbered.markdown",
+				  "markup.list.unnumbered.markdown"],
+		"settings": {
+		  "foreground": "#326B6B"
+		}
+	  },	  	  
 	  {
 		"scope": [
 		  "markup.heading",
